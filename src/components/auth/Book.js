@@ -158,6 +158,7 @@ const Book = ({ userId, name, setAlert, alert }) => {
       date: date,
       session: String(session),
     };
+    console.log(dataSent);
     const res = await bookSchedule(dataSent);
     if (res.statusCode === 200) {
       setAppointment(res.body);

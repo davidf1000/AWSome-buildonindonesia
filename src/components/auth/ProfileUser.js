@@ -67,7 +67,7 @@ const ProfileUser = ({
                         Visitor's Profile
                       </h1>
                     </div>
-{name ? (           <Fragment>         <img
+{name ? (           <Fragment>         <img   
                       className="shadow img-profile rounded-circle mx-1 mt-2"
                       src={profile}
                       style={{ width: "115px", height: "115px" }}
